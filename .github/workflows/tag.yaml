@@ -26,5 +26,5 @@ jobs:
         with:
           push: true
           tags: |
-            docker.pkg.github.com/${{ github.repository }}/githubaction-ghcr/hello-world:${{ steps.get_tag.outputs.TAG }}
-            docker.pkg.github.com/${{ github.repository }}/githubaction-ghcr/hello-world:latest
+            docker.pkg.github.com/${{ github.repository }}/hello-world:${{ steps.get_tag.outputs.TAG }}
+            docker.pkg.github.com/${{ github.repository }}/hello-world:latest
